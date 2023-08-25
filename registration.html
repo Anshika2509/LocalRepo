@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        registration form
+    </title>
+    <link rel="stylesheet" href="regiatration.css">
+</head>
+    <body>
+        <div class="container">
+        <form>
+            <h1 class="heading">REGISTRATION FORM</form></h1>
+            <h4>Required fields are followed by *</h4>
+            <h2>Personal Details</h2>
+            <p>Name: * <input type="text" name="Name" required></p>
+            <fieldset>
+                <legend>Gender *</legend>
+                <p>Male <input type="radio" name="Gender" id="male" required>
+                female <input type="radio" name="Gender" id="female"required>
+            </p>
+            </fieldset>
+            <p>Father's Name: * <input type="text" name="father" id="father" required></p>
+            <p>Mother's Name: * <input type="text" name="mother" id="mother" required></p>
+            <p>Address: * <textarea name="Address" id="address" cols="100" rows="8" required></textarea></p>
+            <p>Contact No. : * <input type="number" name="contact" id="contact" required></p>
+            <p>Email: * <input type="email" name="email" id="email" required></p>
+            <p>Pincode: * <input type="number" name="pincode" id="pincode" required></p>
+            <input type="submit" value="SUBMIT">
+        </form>
+        </div>
+    </body>
+</html>
